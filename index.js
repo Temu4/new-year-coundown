@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const {diffInYears, diffInDays, diffInHours, diffInMinutes, diffInSeconds} =
       calcRemainingTime(targetYear);
 
-    countdownWrapper.innerText = `${diffInYears} years, ${diffInDays} days, ${diffInHours} hours, ${diffInMinutes} minutes, ${diffInSeconds} sec`;
+    countdownWrapper.innerText = `${
+      diffInYears ? diffInYears + ' years, ' : ''
+    }${diffInDays} days, ${diffInHours} hours, ${diffInMinutes} minutes, ${diffInSeconds} sec`;
   }, 1000);
 });
