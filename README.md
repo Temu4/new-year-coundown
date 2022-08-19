@@ -1,3 +1,3 @@
-# new-year-coundown
+# new-year-countdown
 
-Use `npm i` to install all neccesary dependencies.
+Use `npm i` to install all necessary dependencies.
